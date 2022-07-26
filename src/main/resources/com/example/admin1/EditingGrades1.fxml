@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.admin1.EditingGrades1Controller">
+   <children>
+      <TableView fx:id="table" layoutX="185.0" layoutY="62.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="studentIdCol" prefWidth="199.0" text="Student Name" />
+        </columns>
+      </TableView>
+      <TextField fx:id="gradeText" layoutX="126.0" layoutY="311.0" prefHeight="39.0" prefWidth="148.0" promptText="Grade">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button layoutX="365.0" layoutY="311.0" mnemonicParsing="false" onAction="#setGrade" prefHeight="39.0" prefWidth="59.0" text="Submit" />
+      <Button layoutX="31.0" layoutY="24.0" mnemonicParsing="false" onAction="#Switchtohome" text="Back" />
+   </children>
+</AnchorPane>

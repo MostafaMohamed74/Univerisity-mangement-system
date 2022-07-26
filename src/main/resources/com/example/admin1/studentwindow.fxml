@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #3e80c1;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.admin1.studentwindow">
+   <children>
+      <Button layoutX="495.0" layoutY="22.0" mnemonicParsing="false" onAction="#Myinfobutton" prefHeight="38.0" prefWidth="79.0" style="-fx-background-color: black;" text="My Info" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="367.0" layoutY="266.0" mnemonicParsing="false" onAction="#AvaliableTraniingbutton" prefHeight="53.0" prefWidth="180.0" style="-fx-background-color: black;" text="Available Trainings" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Label layoutX="14.0" layoutY="92.0" prefHeight="38.0" prefWidth="277.0" text="Welcome our student" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="367.0" layoutY="84.0" mnemonicParsing="false" onAction="#CourseRegbutton" prefHeight="53.0" prefWidth="180.0" style="-fx-background-color: black;" text="Courses Registeration" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="367.0" layoutY="147.0" mnemonicParsing="false" onAction="#GetCertifacatebutton" prefHeight="53.0" prefWidth="180.0" style="-fx-background-color: black;" text="Get Certificate" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="367.0" layoutY="207.0" mnemonicParsing="false" onAction="#FeePaymentbutton" prefHeight="53.0" prefWidth="180.0" style="-fx-background-color: black;" text="Fees Payment" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Label layoutX="14.0" layoutY="137.0" prefHeight="53.0" prefWidth="305.0" text="Choose from the available services" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="177.0" prefHeight="17.0" prefWidth="168.0" text="Specified for you:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="132.0" layoutY="14.0" prefHeight="53.0" prefWidth="355.0" style="-fx-background-color: #3e80c1;" text="  Faculty of Engineering Ain Shams" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button mnemonicParsing="false" onAction="#Switchtmain" style="-fx-background-color: black;" text="logout" textFill="WHITE" />
+      <Button layoutX="367.0" layoutY="327.0" mnemonicParsing="false" onAction="#deposit" prefHeight="53.0" prefWidth="180.0" style="-fx-background-color: black;" text="Balance Management" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

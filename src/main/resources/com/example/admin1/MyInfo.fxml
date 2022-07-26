@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #3e80c1;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.admin1.Myinfocontroller">
+   <children>
+      <Label alignment="CENTER" layoutX="180.0" layoutY="31.0" prefHeight="43.0" prefWidth="260.0" style="-fx-background-color: black;" text="My Information" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="1.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #3e80c1;">
+         <children>
+            <Label alignment="CENTER" layoutX="170.0" layoutY="25.0" prefHeight="43.0" prefWidth="260.0" style="-fx-background-color: black;" text="My Information" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="24.0" layoutY="120.0" prefHeight="22.0" prefWidth="105.0" text="Name" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="44.0" layoutY="154.0" prefHeight="22.0" prefWidth="65.0" text="ID" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="44.0" layoutY="189.0" prefHeight="22.0" prefWidth="66.0" text="Age" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="44.0" layoutY="229.0" prefHeight="22.0" prefWidth="65.0" text="GPA" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="40.0" layoutY="267.0" prefHeight="22.0" prefWidth="77.0" text="Advisor" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="4.0" layoutY="13.0" mnemonicParsing="false" onAction="#Switchtohome" style="-fx-background-color: black;" text="back" textFill="WHITE" />
+            <Button layoutX="472.0" layoutY="15.0" mnemonicParsing="false" onAction="#switchSceneCourses" text="My Courses" />
+            <Label fx:id="nameLabel" layoutX="129.0" layoutY="120.0" prefHeight="25.0" prefWidth="112.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="GPALabel" layoutX="129.0" layoutY="229.0" prefHeight="25.0" prefWidth="112.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="ageLabel" layoutX="129.0" layoutY="189.0" prefHeight="25.0" prefWidth="112.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="IDLabel" layoutX="129.0" layoutY="154.0" prefHeight="25.0" prefWidth="112.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="advisorLabel" layoutX="129.0" layoutY="267.0" prefHeight="25.0" prefWidth="112.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="38.0" layoutY="306.0" prefHeight="22.0" prefWidth="77.0" text="Balance" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="balanceLabel" layoutX="129.0" layoutY="306.0" prefHeight="25.0" prefWidth="112.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="272.0" layoutY="123.0" prefHeight="27.0" prefWidth="135.0" text="Training weeks" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="trainingLabel" layoutX="416.0" layoutY="123.0" prefHeight="25.0" prefWidth="112.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="272.0" layoutY="157.0" prefHeight="27.0" prefWidth="135.0" text="Credit Hours" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="creditLabel" layoutX="416.0" layoutY="157.0" prefHeight="25.0" prefWidth="112.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="444.0" layoutY="56.0" mnemonicParsing="false" onAction="#switchSceneFee" prefHeight="25.0" prefWidth="145.0" text="Fee Transaction History" />
+            <Label alignment="CENTER" layoutX="272.0" layoutY="192.0" prefHeight="27.0" prefWidth="135.0" text="Email" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="emailLabel" layoutX="399.0" layoutY="192.0" prefHeight="27.0" prefWidth="196.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="241.0" layoutY="232.0" prefHeight="27.0" prefWidth="166.0" text="Telephone Number" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="tnumberLabel" layoutX="416.0" layoutY="232.0" prefHeight="27.0" prefWidth="135.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="265.0" layoutY="270.0" prefHeight="27.0" prefWidth="166.0" text="Address" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="addressLabel" layoutX="416.0" layoutY="270.0" prefHeight="27.0" prefWidth="179.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="265.0" layoutY="309.0" prefHeight="27.0" prefWidth="166.0" text="Bdate" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="bdateLabel" layoutX="416.0" layoutY="309.0" prefHeight="27.0" prefWidth="135.0" text="Label">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

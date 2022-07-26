@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #3e80c1;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.admin1.AvailiableTrainingscontroller">
+   <children>
+      <TableView fx:id="myTable" layoutX="194.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="trainingCol" prefWidth="100.0" text="Training" />
+          <TableColumn fx:id="weekCol" prefWidth="99.0" text="Week" />
+        </columns>
+      </TableView>
+      <Button mnemonicParsing="false" onAction="#Switchtohome" style="-fx-background-color: black;" text="Back" textFill="WHITE" />
+      <Label alignment="CENTER" layoutX="170.0" layoutY="35.0" prefHeight="43.0" prefWidth="260.0" style="-fx-background-color: black;" text="Available Trainings" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="209.0" layoutY="317.0" mnemonicParsing="false" onAction="#enroll" prefHeight="43.0" prefWidth="170.0" style="-fx-background-color: green;" text="Enroll in Training " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

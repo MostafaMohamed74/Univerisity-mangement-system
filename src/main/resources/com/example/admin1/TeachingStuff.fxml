@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #44afbb;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.admin1.TeachingStuffController">
+   <children>
+      <Label layoutX="54.0" layoutY="37.0" prefHeight="62.0" prefWidth="342.0" text="Teaching Stuff" textFill="WHITE">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Button layoutX="50.0" layoutY="150.0" mnemonicParsing="false" onAction="#openForm" prefHeight="101.0" prefWidth="212.0" style="-fx-background-color: black;" text="Creating Forms" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="308.0" layoutY="150.0" mnemonicParsing="false" onAction="#editgradesbutton" prefHeight="101.0" prefWidth="212.0" style="-fx-background-color: black;" text="Editing Grades" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#Switchtomain" style="-fx-background-color: BLACK;" text="LOGOUT" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.admin1.registerController">
+   <children>
+      <TextField fx:id="name" layoutX="120.0" layoutY="39.0" promptText="Name" />
+      <TextField fx:id="gender" layoutX="120.0" layoutY="85.0" prefHeight="25.0" prefWidth="149.0" promptText="Gender" />
+      <TextField fx:id="age" layoutX="120.0" layoutY="127.0" promptText="Age" />
+      <TextField fx:id="pass" layoutX="120.0" layoutY="167.0" prefHeight="25.0" prefWidth="149.0" promptText="Password" />
+      <Button layoutX="225.0" layoutY="283.0" mnemonicParsing="false" onAction="#register" prefHeight="40.0" prefWidth="150.0" text="Register" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#returnToScene" text="Back" />
+      <TextField fx:id="emailField" layoutX="120.0" layoutY="210.0" prefHeight="25.0" prefWidth="149.0" promptText="Email" />
+      <TextField fx:id="tnumberField" layoutX="332.0" layoutY="39.0" prefHeight="25.0" prefWidth="149.0" promptText="Telephone Number" />
+      <TextField fx:id="addressField" layoutX="332.0" layoutY="85.0" promptText="Address" />
+      <TextField fx:id="bdateField" layoutX="332.0" layoutY="127.0" promptText="Birth Date" />
+   </children>
+</AnchorPane>

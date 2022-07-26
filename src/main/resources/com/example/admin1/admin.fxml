@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.admin1.adminController">
+    <children>
+        <Button layoutX="35.0" layoutY="182.0" mnemonicParsing="false" onAction="#register" prefHeight="36.0" prefWidth="140.0" text="User Registeration" />
+        <Button layoutX="224.0" layoutY="182.0" mnemonicParsing="false" onAction="#edit" prefHeight="36.0" prefWidth="153.0" text="Edit Student information" />
+        <Button layoutX="413.0" layoutY="182.0" mnemonicParsing="false" onAction="#courseRegister" prefHeight="36.0" prefWidth="140.0" text="Course Registeration" />
+      <Button layoutX="21.0" layoutY="15.0" mnemonicParsing="false" onAction="#returnToScene" text="Back" />
+    </children>
+</AnchorPane>
