@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.admin1.approveSceneController">
+   <children>
+      <TableView fx:id="registeredCoursesTable" layoutX="200.0" layoutY="62.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="coursesColumn" prefWidth="199.20001220703125" text="Registered Courses" />
+        </columns>
+      </TableView>
+      <Button layoutX="200.0" layoutY="294.0" mnemonicParsing="false" onAction="#approve" text="Approve" />
+      <Button layoutX="348.0" layoutY="294.0" mnemonicParsing="false" onAction="#reject" text="Reject" />
+      <Button layoutX="32.0" layoutY="27.0" mnemonicParsing="false" onAction="#returnToScene" text="Back" />
+   </children>
+</AnchorPane>

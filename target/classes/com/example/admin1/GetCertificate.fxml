@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #3e80c1;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.admin1.Getcertifactecontroller">
+   <children>
+      <Label alignment="CENTER" layoutX="170.0" layoutY="27.0" prefHeight="43.0" prefWidth="260.0" style="-fx-background-color: black;" text="Get Certificate" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="106.0" prefHeight="53.0" prefWidth="78.0" text="Balance:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="215.0" layoutY="300.0" mnemonicParsing="false" onAction="#getCertificate" prefHeight="43.0" prefWidth="170.0" style="-fx-background-color: green;" text="Get Certificate" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="2.0" layoutY="2.0" mnemonicParsing="false" onAction="#Switchtohome" style="-fx-background-color: black;" text="back" textFill="WHITE" />
+      <Label fx:id="blanceLabel" layoutX="106.0" layoutY="106.0" prefHeight="53.0" prefWidth="78.0" text="label" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="myTable" layoutX="200.0" layoutY="88.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="certCol" prefWidth="129.0" text="Certificate " />
+          <TableColumn fx:id="priceCol" prefWidth="70.0" text="Price" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

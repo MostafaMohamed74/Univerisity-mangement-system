@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #3e80c1;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.admin1.FeePaymentcontroller">
+   <children>
+      <Label alignment="CENTER" layoutX="170.0" layoutY="25.0" prefHeight="43.0" prefWidth="260.0" style="-fx-background-color: black;" text="Fees Payment" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="215.0" layoutY="249.0" mnemonicParsing="false" onAction="#pay" prefHeight="43.0" prefWidth="170.0" style="-fx-background-color: green;" text="Pay" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#Switchtohome" style="-fx-background-color: black;" text="Back" textFill="WHITE" />
+      <Label layoutX="76.0" layoutY="107.0" prefHeight="27.0" prefWidth="74.0" text="Balance:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="balanceLabel" layoutX="150.0" layoutY="107.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <MenuButton fx:id="myMenu" layoutX="371.0" layoutY="148.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="158.0" text="Select Year">
+        <items>
+          <MenuItem fx:id="year1Item" mnemonicParsing="false" onAction="#year1" text="Year1" />
+          <MenuItem fx:id="year2Item" mnemonicParsing="false" onAction="#year2" text="Year2" />
+            <MenuItem fx:id="year3Item" mnemonicParsing="false" onAction="#year3" text="Year3" />
+            <MenuItem fx:id="year4Item" mnemonicParsing="false" onAction="#year4" text="Year4" />
+            <MenuItem fx:id="year5Item" mnemonicParsing="false" onAction="#year5" text="Year5" />
+        </items>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </MenuButton>
+      <Label layoutX="303.0" layoutY="107.0" text="Please Select the year to pay for:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="152.0" text="Fees:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="feeLabel" layoutX="149.0" layoutY="152.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
